@@ -1,0 +1,122 @@
+body {
+    background-image: url("/Assets/Leaves.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-clip: border-box;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    max-width: 1200px;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    /* Glassmorphism */
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.body {
+    text-align: justify;
+    max-width: 1200px;
+    width: 80%;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+    /* Glassmorphism */
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.music {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Glassmorphism */
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.family {
+    width: 80%;
+    text-align: center;
+    max-width: 1200px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Glassmorphism */
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.portrait {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.6em;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.9em;
+}
+
+.info {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 545;
+    font-size: 1.3em;
+}
+
+a:link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    color: #ebdbb2;
+}
+a:visited {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    color: #ebdbb2;
+}
+a:hover {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.6em;
+    color: #ebdbb2;
+}
+a:active {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    color: #ebdbb2;
+}
